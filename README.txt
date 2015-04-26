@@ -15,7 +15,7 @@ INCLUDED FILES:
 
 - README.txt : This file.
 - run_analysis.R : The script to tidy the HAR dataset.
-- Codebook.txt : Codebook that describes the variables of created dataset.
+- CodeBook.txt : Project Codebook that describes the variables of created dataset.
 
 INSTRUCTIONS:
 ==============
