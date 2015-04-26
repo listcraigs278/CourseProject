@@ -16,7 +16,7 @@ Data processing was conducting using the R statistical software. In order to imp
 
 ###Collection of the raw data
 The raw data is provided as a zip file that can be downloaded from the UCI website (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Once the zip file has been uncompressed the following directory tree structure is created:
-<!-- language: lang-none -->
+```
 (current directory)--- UCI HAR Dataset -----> test   -----> Inertial Signals (unused)
                                          |             |--> subject_test.txt
                                          |             |--> X_test.txt
@@ -31,7 +31,7 @@ The raw data is provided as a zip file that can be downloaded from the UCI websi
                                          |--> features_info.txt
                                          |--> README.txt
 
-<!-- language: lang-none -->
+```
 ##Creating the tidy datafile
 The R scripts provided create two text files (tidy-HAR.txt, tidy-HAR-Means.txt) in the ‘UCI HAR Dataset’ directory. 
 
