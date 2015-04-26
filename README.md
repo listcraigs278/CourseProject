@@ -85,112 +85,133 @@ Some information on the variable including:
 
 #### Time Domain Variables
 ##### Mean Body Triaxial Accelerometer Measurements (Numeric)
+```
 Time.Body.Accelerometer.Mean-X
 Time.Body.Accelerometer.Mean-Y
 Time.Body.Accelerometer.Mean-Z
-
+```
 ##### Standard Deviation Body Triaxial Accelerometer Measurements (Numeric)
+```
 Time.Body.Accelerometer.Std-X
 Time.Body.Accelerometer.Std-Y
 Time.Body.Accelerometer.Std-Z
-
+```
 ##### Mean Gravity Triaxial Accelerometer Measurements (Numeric)
+```
 Time.Gravity.Accelerometer.Mean-X
 Time.Gravity.Accelerometer.Mean-Y
 Time.Gravity.Accelerometer.Mean-Z
-
+```
 ##### Standard Deviation Gravity Triaxial Accelerometer Measurements (Numeric)
+```
 Time.Gravity.Accelerometer.Std-X
 Time.Gravity.Accelerometer.Std-Y
 Time.Gravity.Accelerometer.Std-Z
-
+```
 ##### Mean Body Triaxial Accelerometer Jerk Measurements (Numeric)
+```
 Time.Body.Accelerometer.Jerk.Mean-X
 Time.Body.Accelerometer.Jerk.Mean-Y
 Time.Body.Accelerometer.Jerk.Mean-Z
-
+```
 ##### Standard Deviation Body Triaxial Accelerometer Jerk Measurements (Numeric)
+```
 Time.Body.Accelerometer.Jerk.Std-X
 Time.Body.Accelerometer.Jerk.Std-Y
 Time.Body.Accelerometer.Jerk.Std-Z
-
+```
 ##### Mean Body Triaxial Gyroscope Measurements (Numeric)
+```
 Time.Body.Gyroscope.Mean-X
 Time.Body.Gyroscope.Mean-Y
 Time.Body.Gyroscope.Mean-Z
-
+```
 ##### Standard Deviation Body Triaxial Gyroscope Measurements (Numeric)
+```
 Time.Body.Gyroscope.Std-X
 Time.Body.Gyroscope.Std-Y
 Time.Body.Gyroscope.Std-Z
-
+```
 ##### Mean Body Gyroscope Triaxial Jerk Measurements (Numeric)
+```
 Time.Body.Gyroscope.Jerk.Mean-X
 Time.Body.Gyroscope.Jerk.Mean-Y
 Time.Body.Gyroscope.Jerk.Mean-Z
-
+```
 ##### Standard Deviation Body Gyroscope Triaxial Measurements (Numeric)
+```
 Time.Body.Gyroscope.Jerk.Std-X
 Time.Body.Gyroscope.Jerk.Std-Y
 Time.Body.Gyroscope.Jerk.Std-Z
-
+```
 ##### Mean Body Magnitude Measurements for Accelerometer & Gyroscope (Numeric)
+```
 Time.Body.Accelerometer.Magnitude.Mean
 Time.Body.Accelerometer.Jerk.Magnitude.Mean
 Time.Body.Gyroscope.Magnitude.Mean
 Time.Body.Gyroscope.Jerk.Magnitude.Mean
-
+```
 ##### Standard Deviation Body Magnitude Measurements for Accelerometer & Gyroscope (Numeric)
+```
 Time.Body.Accelerometer.Magnitude.Std
 Time.Body.Accelerometer.Jerk.Magnitude.Std
 Time.Body.Gyroscope.Magnitude.Std
 Time.Body.Gyroscope.Jerk.Magnitude.Std
-
+```
 #### Frequency Domain Variables 
 ##### Mean Body Triaxial Accelerometer Measurements (Numeric)
+```
 Fourier.Body.Accelerometer.Mean-X
 Fourier.Body.Accelerometer.Mean-Y
 Fourier.Body.Accelerometer.Mean-Z
-
+```
 ##### Standard Deviation Body Triaxial Accelerometer Measurements (Numeric)
+```
 Fourier.Body.Accelerometer.Std-X
 Fourier.Body.Accelerometer.Std-Y
 Fourier.Body.Accelerometer.Std-Z
-
+```
 ##### Mean Body Triaxial Accelerometer Jerk Measurements (Numeric)
+```
 Fourier.Body.Accelerometer.Jerk.Mean-X
 Fourier.Body.Accelerometer.Jerk.Mean-Y
 Fourier.Body.Accelerometer.Jerk.Mean-Z
-
+```
 ##### Standard Deviation Body Triaxial Accelerometer Jerk Measurements (Numeric)
+```
 Fourier.Body.Accelerometer.Jerk.Std-X
 Fourier.Body.Accelerometer.Jerk.Std-Y
 Fourier.Body.Accelerometer.Jerk.Std-Z
-
+```
 ##### Mean Body Gyroscope Triaxial Measurements (Numeric)
+```
 Fourier.Body.Gyroscope.Mean-X
 Fourier.Body.Gyroscope.Mean-Y
 Fourier.Body.Gyroscope.Mean-Z
-
+```
 ##### Standard Deviation Body Gyroscope Triaxial Measurements (Numeric)
+```
 Fourier.Body.Gyroscope.Std-X
 Fourier.Body.Gyroscope.Std-Y
 Fourier.Body.Gyroscope.Std-Z
-
+```
 ##### Mean Body Magnitude Measurements for Accelerometer & Gyroscope (Numeric)
+```
 Fourier.Body.Accelerometer.Magnitude.Mean
 Fourier.Body.Body.Accelerometer.Jerk.Magnitude.Mean
 Fourier.Body.Body.Gyroscope.Magnitude.Mean
 Fourier.Body.Body.Gyroscope.Jerk.Magnitude.Mean
-
+```
 ##### Standard Deviation Body Magnitude Measurements for Accelerometer & Gyroscope (Numeric)
+```
 Fourier.Body.Accelerometer.Magnitude.Std  
 Fourier.Body.Body.Accelerometer.Jerk.Magnitude.Std
 Fourier.Body.Body.Gyroscope.Magnitude.Std
 Fourier.Body.Body.Gyroscope.Jerk.Magnitude.Std
-
+```
 
 # Appendix - List of extracted rows.
+```
 tBodyAcc-meanX	numeric
 tBodyAcc-meanY	numeric
 tBodyAcc-meanZ	numeric
@@ -257,3 +278,5 @@ fBodyBodyGyroMag-mean()	numeric
 fBodyBodyGyroMag-std()	numeric
 fBodyBodyGyroJerkMag-mean()	numeric
 fBodyBodyGyroJerkMag-std()	numeric
+
+```
